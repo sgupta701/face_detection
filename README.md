@@ -35,7 +35,6 @@ FACE_DETECTION/
 ### 1. Clone the repository:
 ```bash
 git clone https://github.com/sgupta701/face_detection.git
-pip install requirements.txt
 cd face_detection
 ```
 
