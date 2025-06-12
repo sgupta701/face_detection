@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+myvenv/
+venv/
+env/
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Image files
+*.jpg
+*.png
+
+# Jupyter notebook checkpoints (if you ever use them)
+.ipynb_checkpoints/
+
+# Output files
+*.log
+*.out
+
+# OS generated files
+Thumbs.db
