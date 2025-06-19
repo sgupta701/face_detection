@@ -21,7 +21,9 @@ img[206:236, 224:313] = [255,255,255]
 plt.imshow(img)
 plt.show()
 print(img)
+
 cv2.imshow('Eminem', img)
+
 #cv2.imshow('Eminem', gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
