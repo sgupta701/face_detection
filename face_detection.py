@@ -23,6 +23,7 @@ while 1:
         rof_color = frame[y:y+h, x:x+w]
         
         eyes = eye_cascade.detectMultiScale(rof_gray)
+        
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(rof_color, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
     
